@@ -6,9 +6,9 @@
         "underscore": "~1.8.3",
         "font-awesome": "fontawesome#~4.4.0"
     },
-    "homepage": "https://github.com/TylerJPresley/simple-base",
+    "homepage": "https://github.com/jordantcarlisle/jordantcarlisle.github.io",
     "authors": [
-        "Tyler J Presley <tjpresley@gmail.com>"
+        "Jordan T Carlisle<jordantcarlisle@gmail.com>"
     ],
     "description": "A simple base for kicking off sites",
     "main": "Gulpfile.js",

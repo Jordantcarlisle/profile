@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TylerJPresley/simple-base.git"
+    "url": "git+https://github.com/jordantcarlisle/jordantcarlisle.github.io.git"
   },
-  "author": "Tyler J Presley <tjpresley@gmail.com>",
+  "author": "Jordan T. Carlisle<jordantcarlisle@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TylerJPresley/simple-base/issues"
+    "url": "https://github.com/jordantcarlisle/jordantcarlisle.github.io"
   },
-  "homepage": "https://github.com/TylerJPresley/simple-base#readme"
+  "homepage": "https://github.com/jordantcarlisle/jordantcarlisle.github.io"
 }
