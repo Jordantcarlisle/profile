@@ -1,0 +1,34 @@
+{
+    "name": "simple-base",
+    "dependencies": {
+        "jquery": "jQuery#~2.1.4",
+        "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
+        "underscore": "~1.8.3",
+        "font-awesome": "fontawesome#~4.4.0"
+    },
+    "homepage": "https://github.com/TylerJPresley/simple-base",
+    "authors": [
+        "Tyler J Presley <tjpresley@gmail.com>"
+    ],
+    "description": "A simple base for kicking off sites",
+    "main": "Gulpfile.js",
+    "moduleType": [
+        "es6"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "bower_components/",
+        "test",
+        "tests"
+    ],
+    "overrides": {
+        "font-awesome": {
+            "main": [
+                "css/font-awesome.css"
+            ]
+        }
+    }
+}
