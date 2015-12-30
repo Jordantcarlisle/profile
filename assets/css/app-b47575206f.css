@@ -7831,9 +7831,27 @@ button.close {
 .fa-fonticons:before {
   content: ""; }
 
+.container-fluid, .row, .col-sm-6, html, body {
+  height: 100%; }
+
+.btn .btn-default .btn-block input:hover {
+  background-color: #B4E7F8;
+  color: gray; }
+
+#hero {
+  background: url(/assets/images/profile.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover1; }
+
+#headline {
+  margin-top: 50px; }
+
 .words {
   margin: 5%;
-  font-size: 1.08em; }
+  font-size: 1.08em;
+  background-color: none; }
   .words .elevator {
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -7856,12 +7874,20 @@ button.close {
     color: inherit;
     text-decoration: none; }
 
-/*@media (max-width: 767px) { 
+@media (max-width: 767px) {
+  #sidekick {
+    color: white;
+    background: linear-gradient(rgba(130, 130, 130, 0.23), rgba(130, 130, 130, 0.23)), url(/assets/images/profile.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  /*	.shadow {
+ 		 -moz-box-shadow: 1px 1px 1.75px 2px #eee;
+  		-webkit-box-shadow: 1px 1px 1.75px 2px #eee; 
+  		box-shadow: 1px 1px 1.75px 2px #eee;
+	}	*/ }
 
-	.words {
-		position: 700px;
-	}
-}*/
 .social {
   position: fixed;
   width: 80%;
@@ -7930,27 +7956,12 @@ button.close {
   .social ul li a {
     line-height: 65px;
     font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.8); } }
+    background-color: rgba(0, 0, 0, 0.8); }
+  #hero {
+    display: none; } }
 
 @media (max-width: 640px) {
   .social ul li {
     width: 25%; }
     .social ul li.hide-xs {
       display: none; } }
-
-.container-fluid, .row, .col-sm-6, html, body {
-  height: 100%; }
-
-.btn .btn-default .btn-block input:hover {
-  background-color: #B4E7F8;
-  color: gray; }
-
-#hero {
-  background: url(/assets/images/profile.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover1; }
-
-#headline {
-  margin-top: 50px; }
