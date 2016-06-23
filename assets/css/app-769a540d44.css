@@ -7836,46 +7836,31 @@ button.close {
   font-family: Oswald;
   src: url(https://fonts.googleapis.com/css?family=Oswald); }
 
-#avatar {
-  visibility: hidden;
-  position: absolute;
-  width: 25%;
-  height: auto;
-  z-index: 1; }
-
-.container-fluid, .row, .col-sm-6, html, body {
-  height: 100%;
-  /*background-color: #E9E7E8;*/ }
-
-#hero {
-  background: linear-gradient(rgba(5, 5, 5, 0.07), rgba(0, 0, 0, 0.8)), url(/assets/images/Jordan.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover1; }
+html, body {
+  height: 100%; }
 
 #headline {
   color: black;
-  background-color: none;
   border-left: 6px solid #00AEEF;
   display: inline-table;
   font-family: Oswald;
-  font-size: 1.5em;
-  margin: 7%;
-  margin-top: 5%;
-  margin-bottom: 1%;
-  padding-left: 5%;
+  font-size: 3rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  padding-left: 3%;
   position: relative;
-  text-align: left;
-  z-index: 2; }
+  text-align: left; }
 
 .words {
   border-left: 6px solid #DB4437;
-  font-size: 1.3em;
-  margin: 7%;
-  padding-left: 5%;
-  position: relative;
-  z-index: 2; }
+  font-size: 1.9rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 8%;
+  padding-left: 3%;
+  position: relative; }
   .words .link-underline a:hover, .words .link-underline a:focus, .words .link-underline a:active {
     background: rgba(255, 235, 0, 0.7); }
   .words a:active, .words a:hover {
@@ -7895,48 +7880,13 @@ button.close {
     color: inherit;
     text-decoration: none; }
 
-@media only screen and (max-width: 900px) {
-  #headline {
-    /*color: rgba(255, 255, 255, 1);*/
-    font-size: 1.1em;
-    position: center;
-    margin-top: 2%; } }
-
 @media only screen and (max-width: 767px) {
-  #avatar {
-    visibility: visible;
-    z-index: 2;
-    float: left;
-    margin: 5%;
-    margin-left: 30%;
-    margin-bottom: 0%;
-    position: relative;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 0.5px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 0.5px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 0 3px #fff, 0 0 0 0.5px #999, 0 2px 5px 4px rgba(0, 0, 0, 0.2); }
   #headline {
-    /*color: rgba(255, 255, 255, 1);*/
-    font-size: .8em;
-    position: center;
-    margin-top: 2%; }
+    margin-left: 10%;
+    margin-right: 10%; }
   .words {
-    background-color: rgba(255, 255, 255, 0.75);
-    border-left: 6px solid #DB4437;
-    font-size: 1.1em;
-    /*padding: 3.5%;*/
-    margin-top: 5%;
-    text-align: right; }
-  #sidekick {
-    /*background: linear-gradient(rgba(5, 5, 5, 0.05), rgba(-40, -40, -40, .9)), url(/assets/images/profile.jpg) no-repeat center center; */
-    background-color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: black; } }
+    margin-left: 10%;
+    margin-right: 10%; } }
 
 .social {
   position: fixed;
@@ -7994,6 +7944,8 @@ button.close {
         color: #000; }
       .social ul li.github a:hover {
         background-color: #829AA8; }
+      .social ul li.snapchat a:hover {
+        background-color: #FFFC00; }
 
 @media (max-width: 900px) {
   .social {
@@ -8015,134 +7967,3 @@ button.close {
     width: 25%; }
     .social ul li.hide-xs {
       display: none; } }
-
-.signup {
-  border-left: 6px solid #000;
-  margin: 7%;
-  padding-left: 5%; }
-
-.group {
-  position: relative;
-  margin-bottom: 5%; }
-
-input {
-  font-size: 1.5em;
-  padding: 5px 0px 0px 2.5px;
-  display: block;
-  width: 80%;
-  border: none;
-  border-bottom: 1px solid #757575; }
-
-input:focus {
-  outline: none; }
-
-/* LABEL ======================================= */
-.note {
-  font-size: 1.6em;
-  width: 80%; }
-
-label {
-  color: #999;
-  font-size: 1em;
-  font-weight: normal;
-  position: absolute;
-  pointer-events: none;
-  left: 5px;
-  top: 10px;
-  transition: 1s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all; }
-
-/* active state */
-input:focus ~ label, input:valid ~ label {
-  top: -10px;
-  font-size: 11px;
-  color: #000; }
-
-/* Button ======================================= */
-button {
-  display: inline-block;
-  position: relative;
-  width: 80%;
-  height: 32px;
-  line-height: 3px;
-  border-radius: 2px;
-  font-size: 0.9em;
-  background-color: #fff;
-  color: black;
-  font-family: Oswald;
-  text-align: center; }
-
-/* BOTTOM BARS ================================= */
-.bar {
-  position: relative;
-  display: block;
-  width: 80%; }
-
-.bar:before, .bar:after {
-  content: '';
-  height: 5px;
-  width: 0;
-  bottom: 1px;
-  position: absolute;
-  background: #FFEB00;
-  transition: 1s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all; }
-
-.bar:before {
-  left: 50%; }
-
-.bar:after {
-  right: 50%; }
-
-/* active state */
-input:focus ~ .bar:before, input:focus ~ .bar:after {
-  width: 50%; }
-
-/* HIGHLIGHTER ================================== */
-.highlight {
-  position: absolute;
-  height: 60%;
-  width: 80%;
-  top: 25%;
-  left: 0;
-  pointer-events: none;
-  opacity: 0.7; }
-
-/* active state */
-input:focus ~ .highlight {
-  -webkit-animation: inputHighlighter 0.3s ease;
-  -moz-animation: inputHighlighter 0.3s ease;
-  animation: inputHighlighter 0.3s ease; }
-
-/* ANIMATIONS ================ */
-@-webkit-keyframes inputHighlighter {
-  from {
-    background: #FFEB00; }
-  to {
-    width: 0;
-    background: transparent; } }
-
-@-moz-keyframes inputHighlighter {
-  from {
-    background: #FFEB00; }
-  to {
-    width: 0;
-    background: transparent; } }
-
-@keyframes inputHighlighter {
-  from {
-    background: #FFEB00; }
-  to {
-    width: 0;
-    background: transparent; } }
-
-@media (max-width: 767px) {
-  input {
-    font-style: 1.1em;
-    padding: 2.5px 0px 0px 1.25px; }
-  label {
-    font-size: .9em; }
-  .note {
-    font-size: 1.4em; } }
